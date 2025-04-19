@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZenFit Studio - Book a Class</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">ZenFit Studio</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html" class="active">Book Now</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="form-section">
+    <h2>Book a Class</h2>
+    <form action="#" method="post" class="booking-form">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="class-type">Select Class:</label>
+      <select id="class-type" name="class-type" required>
+        <option value="yoga">Yoga</option>
+        <option value="pilates">Pilates</option>
+        <option value="hiit">HIIT</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit" class="cta-button">Confirm Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZenFit Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
