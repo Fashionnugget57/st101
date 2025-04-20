@@ -217,6 +217,10 @@ nav a:hover {
   background-color: #d46a1b;
 }
 
+@media (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+  }
+
 /* Footer */
 footer {
   text-align: center;
